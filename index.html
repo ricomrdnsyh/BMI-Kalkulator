@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img src="img/poster.jpg" alt="" width="400px" />
+
+      <p id="pesan">
+        Silahkan masukan berat dan tinggi badan <br />
+        untuk menghitung berat ideal anda
+      </p>
+      <br />
+
+      <label for="">Masukkan berat (kg):</label>
+      <input type="number" id="berat" />
+      <br />
+      <label for="">Masukkan tinggi (cm): </label>
+      <input type="number" id="tinggi" />
+      <br />
+
+      <button id="hitung" onclick="hitungBMI()">Hitung</button>
+      <button id="reset" onclick="resetForm()">Reset</button>
+      <div id="hasil"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

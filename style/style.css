@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+#container > img {
+  margin-bottom: 10px;
+}
+
+#container > h1 {
+  margin: 0 0 0 0;
+}
+
+#pesan {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+input[type="number"] {
+  width: 70%;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+#hitung {
+  background-image: linear-gradient(
+    to right,
+    #1cbd37 0%,
+    #034b1d 51%,
+    #1cbd37 100%
+  );
+  width: 75%;
+  border: 0;
+  padding: 12px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+#hitung:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#reset {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  padding: 12px;
+  width: 75%;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  box-shadow: 0 0 20px #eee;
+  background-size: 200% auto;
+  border: 0;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#reset:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#hasil {
+  font-weight: bold;
+}
