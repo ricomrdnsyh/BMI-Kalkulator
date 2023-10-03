@@ -1,9 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  background-image: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #d4d4d4;
 }
 #container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
